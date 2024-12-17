@@ -21,7 +21,7 @@ resources:
     type: OS::Cinder::Volume
     properties:
       size: 10
-      name: my_volume_name
+      name: saubanov_volume
   
   volume_attachment:
     type: OS::Cinder::VolumeAttachment
